@@ -1,7 +1,7 @@
 package cn.yogjun.pgtm.user.endpoint;
 
 import cn.hutool.core.bean.BeanUtil;
-import cn.yogjun.pgtm.api.dto.UserInfoDTO;
+import cn.yogjun.pgtm.api.base.dto.UserInfoDTO;
 import cn.yogjun.pgtm.api.user.UserInfoVO;
 import cn.yogjun.pgtm.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;

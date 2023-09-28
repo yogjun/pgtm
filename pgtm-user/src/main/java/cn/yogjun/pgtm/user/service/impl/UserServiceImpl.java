@@ -1,11 +1,9 @@
 package cn.yogjun.pgtm.user.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.util.ObjectUtil;
-import cn.yogjun.pgtm.api.dto.UserInfoDTO;
-import cn.yogjun.pgtm.api.user.UserInfoVO;
+import cn.yogjun.pgtm.api.base.dto.UserInfoDTO;
 import cn.yogjun.pgtm.repository.dao.UserDao;
-import cn.yogjun.pgtm.repository.model.User;
+import cn.yogjun.pgtm.repository.model.UserPO;
 import cn.yogjun.pgtm.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
@@ -26,9 +24,9 @@ public class UserServiceImpl implements UserService {
 
   @Override
   public UserInfoDTO getUserInfoByPhone(String phone) {
-    User user = new User();
-    user.setPhone(phone);
-    Optional<User> po = userDao.findOne(Example.of(user));
+    UserPO userPO = new UserPO();
+    userPO.setPhone(phone);
+    Optional<UserPO> po = userDao.findOne(Example.of(userPO));
     if (po.isPresent()) {
       return BeanUtil.copyProperties(po.get(), UserInfoDTO.class);
     }

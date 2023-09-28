@@ -6,7 +6,7 @@
     <modules>
         <module>pgtm-server</module>
         <module>pgtm-repository</module>
-        <module>pgtm-user</module>
+        <module>pgtm-userPO</module>
         <module>pgtm-api</module>
         <module>pgtm-time</module>
     </modules>

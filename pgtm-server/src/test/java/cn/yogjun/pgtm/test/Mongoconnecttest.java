@@ -3,7 +3,7 @@ package cn.yogjun.pgtm.test;
 import cn.hutool.core.util.IdUtil;
 import cn.yogjun.pgtm.PgtmApplication;
 import cn.yogjun.pgtm.repository.dao.UserDao;
-import cn.yogjun.pgtm.repository.model.User;
+import cn.yogjun.pgtm.repository.model.UserPO;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,14 +31,14 @@ public class Mongoconnecttest {
 
   @Test
   public void contextLoads1() {
-    User user = new User();
-    user.setId(IdUtil.getSnowflakeNextId());
-    userDao.insert(user);
+    UserPO userPO = new UserPO();
+    userPO.setId(IdUtil.getSnowflakeNextId());
+    userDao.insert(userPO);
     userDao.findAll().forEach(x -> System.out.println(x));
   }
 
   @Test
   public void contextLoads() {
-    mongoTemplate.findAll(User.class).forEach(x -> System.out.println(x));
+    mongoTemplate.findAll(UserPO.class).forEach(x -> System.out.println(x));
   }
 }

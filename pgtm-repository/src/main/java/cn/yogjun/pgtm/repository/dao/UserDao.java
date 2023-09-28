@@ -1,6 +1,6 @@
 package cn.yogjun.pgtm.repository.dao;
 
-import cn.yogjun.pgtm.repository.model.User;
+import cn.yogjun.pgtm.repository.model.UserPO;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
@@ -11,4 +11,4 @@ import org.springframework.stereotype.Repository;
  * @version ${project.version} - 2023/9/26
  */
 @Repository
-public interface UserDao extends MongoRepository<User, Long> {}
+public interface UserDao extends MongoRepository<UserPO, Long> {}

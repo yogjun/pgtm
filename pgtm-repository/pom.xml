@@ -11,4 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>pgtm-repository</artifactId>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.yogjun</groupId>
+            <artifactId>pgtm-api</artifactId>
+        </dependency>
+    </dependencies>
 </project>

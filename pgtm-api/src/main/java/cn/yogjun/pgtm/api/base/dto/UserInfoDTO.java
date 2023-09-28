@@ -1,4 +1,4 @@
-package cn.yogjun.pgtm.api.dto;
+package cn.yogjun.pgtm.api.base.dto;
 
 import lombok.Data;
 

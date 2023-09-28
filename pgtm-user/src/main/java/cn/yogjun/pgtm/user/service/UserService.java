@@ -1,7 +1,6 @@
 package cn.yogjun.pgtm.user.service;
 
-import cn.yogjun.pgtm.api.dto.UserInfoDTO;
-import cn.yogjun.pgtm.api.user.UserInfoVO;
+import cn.yogjun.pgtm.api.base.dto.UserInfoDTO;
 
 /**
  * {@link UserService}
