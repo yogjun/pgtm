@@ -1,13 +1,13 @@
 package cn.yogjun.pgtm.api.user;
 
-import cn.yogjun.pgtm.api.base.dto.UserInfoDTO;
+import cn.yogjun.pgtm.api.base.dto.ActivityDTO;
 import lombok.Data;
 
 /**
- * {@link UserInfoVO}
+ * {@link ActivityVO}
  *
  * @author <a href="mailto:280536928@qq.com">yogjun</a>
  * @version ${project.version} - 2023/9/28
  */
 @Data
-public class UserInfoVO extends UserInfoDTO {}
+public class ActivityVO extends ActivityDTO {}
