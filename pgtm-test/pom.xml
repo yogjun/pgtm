@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>pgtm-cn.yogjun.pgtm.test.test</artifactId>
+    <artifactId>pgtm-test</artifactId>
 
     <dependencies>
         <dependency>

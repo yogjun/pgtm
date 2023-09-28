@@ -17,9 +17,5 @@
             <groupId>cn.yogjun</groupId>
             <artifactId>pgtm-repository</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.yogjun</groupId>
-            <artifactId>pgtm-api</artifactId>
-        </dependency>
     </dependencies>
 </project>
