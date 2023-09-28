@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * {@link WxUserEndpoint}
  *
- * @author <a href="mailto:matthew.miao@yunlsp.com">matthew.miao</a>
+ * @author <a href="mailto:280536928@qq.com">yogjun</a>
  * @version ${project.version} - 2023/9/28
  */
 @Slf4j

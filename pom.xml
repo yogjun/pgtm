@@ -8,6 +8,7 @@
         <module>pgtm-repository</module>
         <module>pgtm-user</module>
         <module>pgtm-api</module>
+        <module>pgtm-time</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
