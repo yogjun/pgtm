@@ -36,4 +36,9 @@ public class TimeTest {
     activityPO.setMaxUserNum(8);
     activityDao.save(activityPO);
   }
+
+  @Test
+  public void testListActivity() {
+    activityService.list().forEach(x -> System.out.println(x));
+  }
 }
