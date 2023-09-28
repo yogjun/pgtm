@@ -6,6 +6,8 @@
     <modules>
         <module>pgtm-server</module>
         <module>pgtm-repository</module>
+        <module>pgtm-user</module>
+        <module>pgtm-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,6 +32,11 @@
             <dependency>
                 <groupId>cn.yogjun</groupId>
                 <artifactId>pgtm-repository</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.yogjun</groupId>
+                <artifactId>pgtm-api</artifactId>
                 <version>${revision}</version>
             </dependency>
         </dependencies>

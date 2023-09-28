@@ -2,13 +2,12 @@ package cn.yogjun.pgtm.test;
 
 import cn.hutool.core.util.IdUtil;
 import cn.yogjun.pgtm.PgtmApplication;
-import cn.yogjun.ptgm.repository.dao.UserDao;
-import cn.yogjun.ptgm.repository.model.User;
+import cn.yogjun.pgtm.repository.dao.UserDao;
+import cn.yogjun.pgtm.repository.model.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.test.context.TestPropertySource;

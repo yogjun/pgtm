@@ -1,4 +1,4 @@
-package cn.yogjun.ptgm.repository.model;
+package cn.yogjun.pgtm.repository.model;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,6 +1,6 @@
-package cn.yogjun.ptgm.repository.dao;
+package cn.yogjun.pgtm.repository.dao;
 
-import cn.yogjun.ptgm.repository.model.User;
+import cn.yogjun.pgtm.repository.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

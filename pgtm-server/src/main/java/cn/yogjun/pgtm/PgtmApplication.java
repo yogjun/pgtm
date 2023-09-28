@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 
-@EnableMongoRepositories(basePackages = {"cn.yogjun.ptgm.repository.dao"})
+@EnableMongoRepositories(basePackages = {"cn.yogjun.pgtm.repository.dao"})
 @SpringBootApplication(scanBasePackages = {"cn.yogjun.pgtm"})
 public class PgtmApplication {
 
