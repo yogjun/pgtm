@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @Data
 @Document("activity")
 public class ActivityPO extends BasePO {
+
   private String name;
   private String bizType;
   /** 插图 */

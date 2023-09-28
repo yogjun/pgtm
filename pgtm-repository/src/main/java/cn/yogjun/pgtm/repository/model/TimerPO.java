@@ -17,7 +17,7 @@ import java.util.List;
 @Data
 @Document("timer")
 public class TimerPO extends BasePO {
-  private Long id;
+
   private Long userId;
   private Long bizId;
 

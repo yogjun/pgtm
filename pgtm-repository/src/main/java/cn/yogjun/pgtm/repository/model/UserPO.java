@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document("user")
 public class UserPO extends BasePO {
-  private Long id;
+
   private String username;
   private String password;
   private String nickname;
