@@ -29,13 +29,6 @@ public class Mongoconnecttest {
   @Autowired private UserDao userDao;
   @Autowired private MongoTemplate mongoTemplate;
 
-  @Value("${spring.data.mongodb.uri}")
-  private String uri;
-
-  @Test
-  public void contextLoads2() {
-    System.out.println(uri);
-  }
 
   @Test
   public void contextLoads1() {

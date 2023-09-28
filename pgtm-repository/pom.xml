@@ -10,5 +10,5 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>pgtm-repository</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 </project>
