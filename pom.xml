@@ -9,7 +9,7 @@
         <module>pgtm-server</module>
         <module>pgtm-user</module>
         <module>pgtm-time</module>
-        <module>pgtm-test</module>
+        <module>pgtm-cn.yogjun.pgtm.test.test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -82,8 +82,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-cn.yogjun.pgtm.test.test</artifactId>
+            <scope>cn.yogjun.pgtm.test.test</scope>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>

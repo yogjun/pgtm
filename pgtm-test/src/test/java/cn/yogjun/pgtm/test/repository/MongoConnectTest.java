@@ -14,7 +14,7 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * {@link Mongoconnecttest}
+ * {@link MongoConnectTest}
  *
  * @author <a href="mailto:280536928@qq.com">yogjun</a>
  * @version ${project.version} - 2023/9/27
@@ -22,7 +22,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @Slf4j
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = PgtmApplication.class)
-public class Mongoconnecttest {
+@TestPropertySource(locations = "classpath:application.properties")
+public class MongoConnectTest {
 
   @Autowired private UserDao userDao;
   @Autowired private MongoTemplate mongoTemplate;

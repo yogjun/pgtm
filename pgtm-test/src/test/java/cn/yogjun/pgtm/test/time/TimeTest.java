@@ -1,4 +1,4 @@
-package test.time;//package cn.yogjun.pgtm.test.time;
+package cn.yogjun.pgtm.test.time;//package cn.yogjun.pgtm.cn.yogjun.pgtm.test.test.time;
 //
 //import cn.hutool.core.util.IdUtil;
 //import cn.yogjun.pgtm.PgtmApplication;
@@ -10,8 +10,8 @@ package test.time;//package cn.yogjun.pgtm.test.time;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
 //import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+//import org.springframework.boot.cn.yogjun.pgtm.test.test.context.SpringBootTest;
+//import org.springframework.cn.yogjun.pgtm.test.test.context.junit4.SpringJUnit4ClassRunner;
 //
 ///**
 // * {@link TimeTest}
