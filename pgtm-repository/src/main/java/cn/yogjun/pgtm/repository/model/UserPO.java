@@ -1,5 +1,6 @@
 package cn.yogjun.pgtm.repository.model;
 
+import cn.yogjun.pgtm.repository.BasePO;
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -11,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Data
 @Document("user")
-public class UserPO {
+public class UserPO extends BasePO {
   private Long id;
   private String username;
   private String password;
