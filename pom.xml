@@ -9,6 +9,7 @@
         <module>pgtm-server</module>
         <module>pgtm-user</module>
         <module>pgtm-time</module>
+        <module>pgtm-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

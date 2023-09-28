@@ -1,4 +1,4 @@
-package cn.yogjun.pgtm.test;
+package test;
 
 import cn.hutool.core.util.IdUtil;
 import cn.yogjun.pgtm.PgtmApplication;
@@ -22,7 +22,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @Slf4j
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = PgtmApplication.class)
-@TestPropertySource(locations="classpath:application.properties")
 public class Mongoconnecttest {
 
   @Autowired private UserDao userDao;
